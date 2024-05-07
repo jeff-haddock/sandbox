@@ -1,12 +1,12 @@
-// let nameElementFirst = document.getElementById("name");
-// console.log("first grab", nameElementFirst)
+let nameElementFirst = document.getElementById("name");
+console.log("first grab", nameElementFirst)
 
-// function nameClickEvent(){
-//     let nameElement = document.getElementById("name");
+function nameClickEvent(){
+    let nameElement = document.getElementById("name");
     
-//     let pTagElement = document.getElementById("p-name-tag");
-//     pTagElement.innerHTML = "Name: " + nameElement.value;
-// }
+    let pTagElement = document.getElementById("p-name-tag");
+    pTagElement.innerHTML = "Name: " + nameElement.value;
+}
 
 
 // SPREAD OPERATORS
